@@ -29,7 +29,7 @@ A 64-bit IEEE 754 "double" float.  Any number literal of the form `0`, `0.`,
 Note that negative zero is distinct from positive zero, but otherwise, all of
 the above have the same meaning.
 
-## Dictionary
+## Map
 
 Maps strings, numbers or actor references to any other data type; similar to an 
 anonymous object, i.e. 
