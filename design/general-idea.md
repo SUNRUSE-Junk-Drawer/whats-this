@@ -31,8 +31,14 @@ the above have the same meaning.
 
 ## Dictionary
 
-Maps strings to any other data type; similar to an anonymous object, i.e. 
-`{ item-one: 30, item-two: true, item-three: "the item" }`.
+Maps strings, numbers or actor references to any other data type; similar to an 
+anonymous object, i.e. 
+`{ string-key: 30, 123: true, @4575EF21-6D87-4758-9CEA-CDA8E7F17580: "the item" }`.
+
+The following all generate two separate properties; numbers, strings and actor
+references are kept separate:
+
+- `{ A575EF21-6D87-4758-9CEA-CDA8E7F17580: 30, @A575EF21-6D87-4758-9CEA-CDA8E7F17580: true }`
 
 ## List
 
