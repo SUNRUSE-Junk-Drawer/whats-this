@@ -55,13 +55,6 @@ Each message handler describes:
 - If the message handler changes the receiving actor's state, a new value
   describing that state.
 
-## Globals
-
-The following are defined by the implementation in every message handler at
-runtime:
-
-### 
-
 ## Example
 
 For instance, we have an actor describing a character, who is carrying items, 
