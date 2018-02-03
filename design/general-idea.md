@@ -39,6 +39,11 @@ The following all generate two separate properties; numbers, strings and actor
 references are kept separate:
 
 - `{ A575EF21-6D87-4758-9CEA-CDA8E7F17580: 30, @A575EF21-6D87-4758-9CEA-CDA8E7F17580: true }`
+- `{ message.an-actor-reference: 30, message.string-representation-of-same-actor-reference: true }`
+- `{ message.a-number: 30, message.string-representation-of-same-number: true }`
+
+You can optionally quote strings used as keys:
+`{ "this is a key with spaces in it.": 3 }`.
 
 ## List
 
